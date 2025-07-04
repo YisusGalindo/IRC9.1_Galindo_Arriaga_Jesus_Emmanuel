@@ -1,0 +1,2 @@
+docker build -t flask-docker-app .
+docker run -d -p 80:80 --name contenedor-flask flask-docker-app
